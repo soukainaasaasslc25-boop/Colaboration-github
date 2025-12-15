@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;  
+}
+
+
+body{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+    justify-content: center;
+    justify-items: center;
+    background: #f1eded;
+}
+.contanier{
+    background: #fff;
+    padding: 2rem 7rem;
+    border-radius: 2rem;
+    box-shadow: 0 5px 10px  rgb(0,0,0,0.1);
+}
+.result-img{
+    display: flex;
+    column-gap: 7rem;
+
+}
+.result-img img{
+    width: 100px;
+}
+.user-result img{
+    transform: rotate(90deg);
+}
+.ather-result img{
+    transform: rotate(-90deg) ;
+}
+.result{
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 2rem;
+    color: rgb(214, 125, 250);
+}
+.option-image img{
+    width: 50px;
+    align-items: center;
+    height: auto;
+}
+.imageOption{
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+    justify-content: space-between;
+    margin-top: 2rem;
+   
+
+}
+
+.option-image{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+     opacity: 0.5;
+    transition: opacity 0.1s ease ;
+}
+.option-image:hover{
+    opacity: 1;
+}
+.option-image p{
+    font-size: 1.5rem;
+    color: blue;
+}
+
