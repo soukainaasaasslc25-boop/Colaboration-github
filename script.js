@@ -57,7 +57,6 @@ options.forEach((image,index) => {
         // Affiche le resultat
         result.textContent = message;
     console.log(cpuuser,cpuvalue);
-     
     });
 });
 
