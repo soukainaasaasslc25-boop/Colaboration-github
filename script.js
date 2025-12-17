@@ -35,7 +35,28 @@ options.forEach((image,index) => {
     otherResult.src = otherimg[randomNumber];
     
 
-    
+    let cpuuser=["R","P","S"][randomNumber];
+    let cpuvalue=["R","P","S"][index];
+    let outcomes={
+        "RS": "Tu gagnes ! 🎉", 
+            "PR": "Tu gagnes ! 🎉",  
+            "SP": "Tu gagnes ! 🎉", 
+
+            "RR": "Égalité ! 🤝",
+            "PP": "Égalité ! 🤝",
+            "SS": "Égalité ! 🤝",
+
+            "SR": "L'ordinateur gagne ! 😭",  
+            "RP": "L'ordinateur gagne ! 😭",  
+            "PS": "L'ordinateur gagne ! 😭"
+    };
+    let outcomesValue=outcomes[cpuuser+cpuvalue];
+    const key = computerChoice + playerChoice;
+        const message = outcomes[key];
+
+        // Affiche le résultat
+        result.textContent = message;
+    console.log(cpuuser,cpuvalue);
         // console.log(imgSrc);
         // console.log(e.target);
     });
