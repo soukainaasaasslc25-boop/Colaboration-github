@@ -33,9 +33,7 @@ options.forEach((image,index) => {
     let randomNumber = Math.floor(Math.random() * 3);
     let otherimg = ["images/rock.png", "images/paper.png", "images/scissors.png"];
     otherResult.src = otherimg[randomNumber];
-    
-
-    
+  
        
     });
 });
