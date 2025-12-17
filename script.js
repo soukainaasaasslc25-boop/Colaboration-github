@@ -36,8 +36,7 @@ options.forEach((image,index) => {
     
 
     
-        // console.log(imgSrc);
-        // console.log(e.target);
+       
     });
 });
 
