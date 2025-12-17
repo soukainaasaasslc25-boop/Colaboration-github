@@ -58,6 +58,7 @@ options.forEach((image,index) => {
         result.textContent = message;
     console.log(cpuuser,cpuvalue);
         // console.log(imgSrc);
+        // console.log(imgSrc);
         // console.log(e.target);
     });
 });
